@@ -4,6 +4,7 @@ import os
 import sys
 
 import repoutils
+print('hello')
 
 if not os.getcwd().endswith('/scripts'):
     print('[Error] Please run this script from the scripts dir!')
